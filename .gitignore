@@ -1,8 +1,10 @@
+# Python environment
 boston_env/
-.env/
-venv/
-__pycache__/
 *.pyc
-data/*.csv
-.DS_Store
+__pycache__/
+
+# Jupyter Notebook
 *.ipynb
+
+# Data
+data/
