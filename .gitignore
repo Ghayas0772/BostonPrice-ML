@@ -8,3 +8,42 @@ __pycache__/
 
 # Data
 data/
+# Python environment
+boston_env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.DS_Store
+*.egg-info/
+.env
+
+# Virtual environment
+boston_env/
+*.pyc
+__pycache__/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (optional)
+data/*.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+# Ignore Python virtual environment
+boston_env/
+
+# Ignore Jupyter notebooks if not needed
+*.ipynb
+
+# Ignore dataset files if needed
+data/*.csv
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
